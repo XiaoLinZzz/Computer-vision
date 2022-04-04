@@ -2,7 +2,7 @@
 
 The course in The University of Adelaide (COMP SCI 3315)
 
-This folder is to restore what I have done in this course...
+This folder is to store what I have done in this course...
 
 
 ### a1.py main puerpose: 
