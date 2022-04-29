@@ -77,6 +77,14 @@ def detectAndDescribe(image, method=None):
     
     return (kps, features)
 
+def orb_detect(image, n):
+    descriptor = cv2.ORB_create(n)
+        
+    # get keypoints and descriptors
+    (kps, features) = descriptor.detectAndCompute(image, None)
+    
+    return (kps, features)
+
 
 def createMatcher(method):
     "Create and return a Matcher Object"
@@ -113,11 +121,15 @@ def match_k(k, path_ref, path_Q, method):
         use top-k method
 
         k: top-k
-        path: path of reference and query images
+        factor: resize factor
+        path_ref: path of reference images
+        path_Q: path of query images
         method: feature detection method
 
         returns numbers of successful pairs of images
     """
+
+
     book_ref = load_images_from_folder(path_ref)
     book_Q = load_images_from_folder(path_Q)
 
@@ -168,7 +180,8 @@ def match_k_resize(k, factor, path_ref, path_Q, method):
 
         k: top-k
         factor: resize factor
-        path: path of reference and query images
+        path_ref: path of reference images
+        path_Q: path of query images
         method: feature detection method
 
         returns numbers of successful pairs of images
@@ -222,12 +235,84 @@ def match_k_resize(k, factor, path_ref, path_Q, method):
 
 
 
+
+"""------------------------------------------    Improve   ----------------------------------------------------------"""
+
+def orb_detect(image, n):
+    descriptor = cv2.ORB_create(nfeatures = n)
+        
+    # get keypoints and descriptors
+    (kps, features) = descriptor.detectAndCompute(image, None)
+    
+    return (kps, features)
+
+
+
+def improve_orb_k(k, path_ref, path_Q, a):  
+    """
+        use top-k method
+
+        k: top-k
+        factor: resize factor
+        path_ref: path of reference images
+        path_Q: path of query images
+
+        returns numbers of successful pairs of images
+    """
+
+
+    book_ref = load_images_from_folder(path_ref)
+    book_Q = load_images_from_folder(path_Q)
+
+    # list = []
+    count = 0
+    for y in range(0,100):
+        list = []
+        q_kp, q_des = orb_detect(book_Q[y], a)
+        for x in range(0, 100):
+            kp, des = orb_detect(book_ref[x], a)
+
+            bf_sift = createMatcher('orb')
+            matches_sift = bf_sift.knnMatch(des, q_des, k=2) 
+
+            good_sift = []
+            good_sift_without_list = []
+            for m,n in matches_sift:
+                if m.distance < 0.8 * n.distance:
+                    good_sift.append([m])
+                    good_sift_without_list.append(m)
+        
+            if len(good_sift_without_list) > 4:
+                src_pts = np.float32([kp[m.queryIdx].pt for m in good_sift_without_list]).reshape(-1,1,2)
+                dst_pts = np.float32([q_kp[m.trainIdx].pt for m in good_sift_without_list]).reshape(-1,1,2)
+
+                model, matchesMask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
+            
+                inliers_number = np.sum(matchesMask)
+                list.append(inliers_number)
+            else:
+                list.append(0)
+
+        value = heapq.nlargest(k, list)
+
+        for i in value:
+            index = list.index(i)
+
+            if y == index:
+                count += 1
+                break
+
+    return count
+
+
+
 """------------------------------------------    Not in data set   --------------------------------------------------"""
 
 def get_min_score(path_ref, path_Q, method):
     """
 
-        path: path of reference and query images
+        path_ref: path of reference images
+        path_Q: path of query images
         method: feature detection method
 
         returns minimum score
@@ -320,9 +405,10 @@ def not_in_data_set(k, path_ref, path_Q, num, method, thershold):
                 list.append(0)
 
     max_value = heapq.nlargest(k, list)
+    min_max_value = min(max_value)
 
-    for i in max_value:
-        if i < thershold:
-            count += 1
+    if min_max_value < thershold:
+        count += 1
+        
     
     return count
