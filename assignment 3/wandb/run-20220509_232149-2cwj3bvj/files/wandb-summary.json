@@ -1,1 +1,1 @@
-{"batch_size": 64, "_timestamp": 1652109864, "_runtime": 146, "_step": 10, "optimizer": "Adam", "accuracy": 0.875, "Avg loss": 0.3644593044830735}
+{"batch_size": 64, "_timestamp": 1652114885, "_runtime": 5167, "_step": 301, "optimizer": "Adam", "accuracy": 0.8922, "Avg loss": 2.6323189860696248, "_wandb": {"runtime": 5233}}

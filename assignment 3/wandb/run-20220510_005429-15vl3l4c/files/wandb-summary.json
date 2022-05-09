@@ -1,0 +1,1 @@
+{"batch_size": 64, "_timestamp": 1652115357, "_runtime": 82, "_step": 7, "optimizer": "Adam", "lr": 0.1, "accuracy": 0.1, "Avg loss": 2.312541048997527}
