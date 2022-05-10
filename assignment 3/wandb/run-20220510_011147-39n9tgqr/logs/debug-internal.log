@@ -132,3 +132,26 @@
 2022-05-10 01:20:05,851 DEBUG   SenderThread:16481 [sender.py:send_request():246] send_request: stop_status
 2022-05-10 01:20:21,242 DEBUG   HandlerThread:16481 [handler.py:handle_request():141] handle_request: stop_status
 2022-05-10 01:20:21,243 DEBUG   SenderThread:16481 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 01:20:36,768 DEBUG   HandlerThread:16481 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 01:20:36,768 DEBUG   SenderThread:16481 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 01:20:52,124 DEBUG   HandlerThread:16481 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 01:20:52,125 DEBUG   SenderThread:16481 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 01:21:07,479 DEBUG   HandlerThread:16481 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 01:21:07,480 DEBUG   SenderThread:16481 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 01:21:11,234 WARNING MainThread:16481 [internal.py:is_dead():387] Internal process exiting, parent pid 16445 disappeared
+2022-05-10 01:21:11,234 ERROR   MainThread:16481 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-05-10 01:21:11,259 INFO    SenderThread:16481 [sender.py:finish():1110] shutting down sender
+2022-05-10 01:21:11,259 INFO    SenderThread:16481 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-10 01:21:11,493 INFO    HandlerThread:16481 [handler.py:finish():806] shutting down handler
+2022-05-10 01:21:11,817 INFO    SenderThread:16481 [dir_watcher.py:finish():342] scan: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files
+2022-05-10 01:21:11,817 INFO    SenderThread:16481 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/requirements.txt requirements.txt
+2022-05-10 01:21:11,817 INFO    SenderThread:16481 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/output.log output.log
+2022-05-10 01:21:11,821 INFO    SenderThread:16481 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/config.yaml config.yaml
+2022-05-10 01:21:11,821 INFO    SenderThread:16481 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/wandb-summary.json wandb-summary.json
+2022-05-10 01:21:11,825 INFO    SenderThread:16481 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/wandb-metadata.json wandb-metadata.json
+2022-05-10 01:21:11,826 INFO    SenderThread:16481 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-10 01:21:11,826 INFO    SenderThread:16481 [file_pusher.py:join():150] waiting for file pusher
+2022-05-10 01:21:12,125 INFO    WriterThread:16481 [datastore.py:close():279] close: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/run-39n9tgqr.wandb
+2022-05-10 01:21:13,167 INFO    Thread-19 :16481 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/requirements.txt
+2022-05-10 01:21:13,235 INFO    Thread-21 :16481 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/wandb-summary.json
+2022-05-10 01:21:13,241 INFO    Thread-20 :16481 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220510_011147-39n9tgqr/files/config.yaml

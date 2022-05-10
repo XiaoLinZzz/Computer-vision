@@ -25,6 +25,9 @@ path_lr_0001_sgd = 'xiaolinzzz/Assignment 3/32cyco4x'     # learning rate --> 0.
 
 
 # ADAM optimizer
+path_lr_1_adam = 'xiaolinzzz/Assignment 3/26hm95zu'       # learning rate --> 1
+path_lr_01_adam = 'xiaolinzzz/Assignment 3/1uqd5ec2'      # learning rate --> 0.1
+path_lr_001_adam = 'xiaolinzzz/Assignment 3/xay5e4fz'     # learning rate --> 0.01
 path_lr_0001_adam = 'xiaolinzzz/Assignment 3/2cwj3bvj'    # learning rate --> 0.001
 
 
