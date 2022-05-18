@@ -1,0 +1,21 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-05-17T13:37:37.372770",
+    "startedAt": "2022-05-17T13:37:28.106297",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/XiaoLinzzz/Computer-vision.git",
+        "commit": "fa09abb412c0a38bdcd8dda3489962370d7eb558"
+    },
+    "email": "mlj20020716@163.com",
+    "root": "/Users/malujie/Computer-vision",
+    "host": "malujiedeMacBook-Pro.local",
+    "username": "malujie",
+    "executable": "/usr/local/bin/python3"
+}

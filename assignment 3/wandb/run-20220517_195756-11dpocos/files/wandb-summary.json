@@ -1,0 +1,1 @@
+{"optimizer": "SGD", "_timestamp": 1652794624, "_runtime": 5948, "_step": 303, "lr": 0.1, "accuracy": 0.9029, "Avg loss": 0.9400671639829684, "_wandb": {"runtime": 5161}}
