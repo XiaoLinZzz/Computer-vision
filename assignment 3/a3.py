@@ -52,8 +52,33 @@ def train(dataloader, model, loss_fn, optimizer):
         if batch % 100 == 0:
             loss, current = loss.item(), batch * len(X)
             print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
-            
+    
+    # get the mean of the gradients of the loss
+    # return model.linear_relu_stack[0].weight.grad.mean()
+ 
+ 
+def get_mean_loss(dataloader, model, loss_fn, optimizer):
+    size = len(dataloader.dataset)
+    model.train()
+    for batch, (X, y) in enumerate(dataloader):
+        # X, y = X.to(device), y.to(device)
 
+        # Compute prediction error
+        pred = model(X)
+        loss = loss_fn(pred, y)
+
+        # Backpropagation
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+        if batch % 100 == 0:
+            loss, current = loss.item(), batch * len(X)
+            # print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
+    
+    # get the mean of the gradients of the loss
+    return model.linear_relu_stack[0].weight.grad.mean()
+ 
 ##Define a test function
 def test(dataloader, model, loss_fn):
     size = len(dataloader.dataset)
@@ -107,16 +132,16 @@ def get_loss(dataloader, model, loss_fn):
 def sgd_optimizer(model, lr):
     loss_fn = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=lr)
-    wandb.log({'optimizer': 'SGD'})
-    wandb.log({'lr': lr})
+    # wandb.log({'optimizer': 'SGD'})
+    # wandb.log({'lr': lr})
     
     return loss_fn, optimizer
     
 def adam_optimizer(model, lr):
     loss_fn = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-    wandb.log({'optimizer': 'Adam'})
-    wandb.log({'lr': lr})
+    # wandb.log({'optimizer': 'Adam'})
+    # wandb.log({'lr': lr})
     
     return loss_fn, optimizer
 
@@ -124,3 +149,10 @@ def adam_optimizer(model, lr):
 
 
 # -------------------------------------------------------------------------------------- #
+
+
+def count_parameters(model):
+    params = [p.numel() for p in model.parameters() if p.requires_grad]
+    for item in params:
+        print(f'{item:>8}')
+    print(f'________\n{sum(params):>8}')
