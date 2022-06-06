@@ -1,0 +1,1 @@
+{"batch_size": 64, "_timestamp": 1654504081, "_runtime": 1038, "_step": 4, "optimizer": "SGD", "lr": 0.001}

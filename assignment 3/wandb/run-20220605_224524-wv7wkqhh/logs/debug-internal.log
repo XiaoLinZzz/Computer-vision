@@ -1,0 +1,472 @@
+2022-06-05 22:45:31,629 INFO    MainThread:96031 [internal.py:wandb_internal():90] W&B internal server running at pid: 96031, started at: 2022-06-05 22:45:31.628853
+2022-06-05 22:45:31,630 INFO    WriterThread:96031 [datastore.py:open_for_write():75] open: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/run-wv7wkqhh.wandb
+2022-06-05 22:45:31,632 DEBUG   SenderThread:96031 [sender.py:send():232] send: header
+2022-06-05 22:45:31,633 DEBUG   SenderThread:96031 [sender.py:send():232] send: run
+2022-06-05 22:45:32,012 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: check_version
+2022-06-05 22:45:32,019 INFO    SenderThread:96031 [dir_watcher.py:__init__():197] watching files in: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files
+2022-06-05 22:45:32,019 INFO    SenderThread:96031 [sender.py:_start_run_threads():811] run started: wv7wkqhh with start time 1654440330
+2022-06-05 22:45:32,020 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:32,020 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:45:32,020 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: check_version
+2022-06-05 22:45:33,023 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:45:33,395 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: run_start
+2022-06-05 22:45:33,396 DEBUG   HandlerThread:96031 [meta.py:__init__():35] meta init
+2022-06-05 22:45:33,396 DEBUG   HandlerThread:96031 [meta.py:__init__():49] meta init done
+2022-06-05 22:45:33,396 DEBUG   HandlerThread:96031 [meta.py:probe():209] probe
+2022-06-05 22:45:33,401 DEBUG   HandlerThread:96031 [meta.py:_setup_git():199] setup git
+2022-06-05 22:45:33,434 DEBUG   HandlerThread:96031 [meta.py:_setup_git():206] setup git done
+2022-06-05 22:45:33,435 DEBUG   HandlerThread:96031 [meta.py:_save_pip():53] save pip
+2022-06-05 22:45:33,436 DEBUG   HandlerThread:96031 [meta.py:_save_pip():67] save pip done
+2022-06-05 22:45:33,436 DEBUG   HandlerThread:96031 [meta.py:probe():247] probe done
+2022-06-05 22:45:33,505 DEBUG   SenderThread:96031 [sender.py:send():232] send: files
+2022-06-05 22:45:33,505 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-05 22:45:33,516 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:45:33,517 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:45:33,524 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:33,524 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:33,641 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:33,642 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:33,710 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:33,710 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:33,813 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:33,813 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:33,813 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:45:33,821 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:33,821 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:33,869 DEBUG   SenderThread:96031 [sender.py:send():232] send: telemetry
+2022-06-05 22:45:33,869 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:33,870 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:33,870 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:45:33,870 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:33,870 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:45:33,917 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:33,922 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:33,922 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:33,932 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:33,932 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:34,026 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:45:34,027 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/requirements.txt
+2022-06-05 22:45:34,027 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:34,027 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-metadata.json
+2022-06-05 22:45:34,028 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:34,094 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:34,094 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:34,096 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:34,096 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:34,199 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:34,199 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:34,199 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:34,214 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:34,215 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:34,302 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:34,320 INFO    Thread-11 :96031 [upload_job.py:push():132] Uploaded file /var/folders/6_/yw4h8_d91t33tsg16xf17gth0000gn/T/tmpodhvj0h9wandb/os43n294-wandb-metadata.json
+2022-06-05 22:45:34,390 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:34,390 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:34,400 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:45:34,400 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:45:34,495 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:45:34,549 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:45:34,549 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:45:34,550 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:45:34,550 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:45:34,551 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:34,551 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:45:34,551 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:45:34,552 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:45:34,552 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:34,552 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:45:35,030 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:45:36,036 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:38,037 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:40,042 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:42,052 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:44,060 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:46,063 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:46,107 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:45:46,107 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:45:46,108 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:46,108 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:45:47,065 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:45:48,070 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:48,875 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:45:48,875 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:45:50,076 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:52,079 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:54,084 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:56,089 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:58,095 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:45:59,367 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:45:59,368 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:45:59,368 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:45:59,369 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:00,100 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:46:02,101 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:03,104 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/config.yaml
+2022-06-05 22:46:03,354 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:46:04,108 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:04,217 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:46:04,218 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:46:06,114 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:08,121 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:10,126 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:11,492 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:46:11,493 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:46:11,493 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:46:11,494 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:12,128 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:46:12,128 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:14,135 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:16,141 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:18,148 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:19,640 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:46:19,641 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:46:20,153 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:22,160 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:22,965 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:46:22,966 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:46:22,966 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:46:22,967 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:23,163 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:46:24,166 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:26,169 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:28,177 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:30,178 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:32,180 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:34,031 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:46:34,186 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:34,759 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:46:34,761 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:46:34,761 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:46:34,762 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:34,973 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:46:34,973 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:46:35,190 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:46:36,191 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:38,195 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:40,203 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:42,209 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:44,217 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:46,218 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:46,877 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:46:46,877 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:46:46,877 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:46:46,878 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:47,219 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:46:48,219 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:50,225 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:50,386 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:46:50,386 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:46:52,232 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:54,233 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:56,238 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:58,245 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:46:58,427 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:46:58,428 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:46:58,428 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:46:58,430 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:46:59,246 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:00,252 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:02,253 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:04,254 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:04,678 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:47:05,718 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:47:05,718 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:47:06,260 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:08,264 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:10,138 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:47:10,139 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:47:10,139 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:47:10,139 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:47:10,267 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:10,267 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:12,268 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:14,270 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:16,276 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:18,282 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:20,288 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:21,066 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:47:21,067 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:47:21,381 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:47:21,396 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:47:21,397 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:47:21,397 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:47:22,294 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:22,294 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:24,296 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:26,301 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:28,308 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:30,312 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:32,314 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:33,949 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:47:33,950 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:47:33,950 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:47:33,951 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:47:34,319 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:35,357 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:47:36,326 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:36,401 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:47:36,401 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:47:38,331 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:40,335 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:42,340 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:44,345 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:44,668 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:47:44,682 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:47:44,683 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:47:44,683 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:47:45,346 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:46,347 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:48,349 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:50,352 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:51,734 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:47:51,735 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:47:52,360 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:54,368 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:47:55,311 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:47:55,312 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:47:55,312 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:47:55,313 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:47:55,374 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:47:58,386 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:00,392 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:02,394 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:04,405 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:05,684 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:48:05,685 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:48:05,685 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:48:05,685 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:06,118 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:06,410 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:06,410 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:07,101 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:48:07,101 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:48:08,415 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:10,419 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:12,427 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:14,431 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:16,433 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:16,525 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:48:16,526 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:48:16,526 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:48:16,526 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:17,434 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:18,439 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:20,444 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:22,454 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:22,495 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:48:22,495 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:48:24,460 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:26,466 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:28,472 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:28,765 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:48:28,766 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:48:28,766 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:48:28,767 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:29,477 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:30,482 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:32,487 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:34,493 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:36,498 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:36,778 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:37,828 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-05 22:48:37,828 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: stop_status
+2022-06-05 22:48:38,502 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:40,510 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:41,741 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-05 22:48:41,742 DEBUG   SenderThread:96031 [sender.py:send():232] send: history
+2022-06-05 22:48:41,742 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:48:41,742 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:42,520 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:44,528 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:46,537 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:46,704 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:48:46,704 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:48:46,713 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:50,833 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:48:50,833 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:48:50,862 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:48:50,862 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:48:50,935 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:50,985 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:48:50,985 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:48:50,989 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: pause
+2022-06-05 22:48:50,989 INFO    HandlerThread:96031 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-05 22:48:51,088 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:51,115 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: resume
+2022-06-05 22:48:51,115 INFO    HandlerThread:96031 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-05 22:48:51,134 DEBUG   SenderThread:96031 [sender.py:send():232] send: telemetry
+2022-06-05 22:48:51,135 DEBUG   SenderThread:96031 [sender.py:send():232] send: telemetry
+2022-06-05 22:48:51,553 INFO    Thread-7  :96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:51,682 DEBUG   SenderThread:96031 [sender.py:send():232] send: exit
+2022-06-05 22:48:51,682 INFO    SenderThread:96031 [sender.py:send_exit():368] handling exit code: 0
+2022-06-05 22:48:51,682 INFO    SenderThread:96031 [sender.py:send_exit():370] handling runtime: 193
+2022-06-05 22:48:51,683 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:51,683 INFO    SenderThread:96031 [sender.py:send_exit():376] send defer
+2022-06-05 22:48:51,683 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,683 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-05 22:48:51,683 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,683 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:51,683 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-05 22:48:51,684 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 1
+2022-06-05 22:48:51,684 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:51,684 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,684 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-05 22:48:51,733 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,733 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-05 22:48:51,733 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 2
+2022-06-05 22:48:51,734 DEBUG   SenderThread:96031 [sender.py:send():232] send: stats
+2022-06-05 22:48:51,734 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,734 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-05 22:48:51,734 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,734 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-05 22:48:51,734 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 3
+2022-06-05 22:48:51,735 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,735 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-05 22:48:51,735 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,735 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-05 22:48:51,735 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 4
+2022-06-05 22:48:51,735 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,735 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-05 22:48:51,735 DEBUG   SenderThread:96031 [sender.py:send():232] send: summary
+2022-06-05 22:48:51,736 INFO    SenderThread:96031 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-05 22:48:51,736 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,736 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-05 22:48:51,736 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 5
+2022-06-05 22:48:51,736 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:51,736 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-05 22:48:51,737 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:51,737 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-05 22:48:51,792 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:52,116 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 6
+2022-06-05 22:48:52,117 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:52,117 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:52,117 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-05 22:48:52,117 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:52,117 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-05 22:48:52,117 INFO    SenderThread:96031 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-05 22:48:52,223 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:52,556 INFO    SenderThread:96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:52,556 INFO    SenderThread:96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/config.yaml
+2022-06-05 22:48:52,557 INFO    SenderThread:96031 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:52,557 INFO    SenderThread:96031 [dir_watcher.py:finish():342] scan: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files
+2022-06-05 22:48:52,557 INFO    SenderThread:96031 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/requirements.txt requirements.txt
+2022-06-05 22:48:52,557 INFO    SenderThread:96031 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log output.log
+2022-06-05 22:48:52,559 INFO    SenderThread:96031 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/config.yaml config.yaml
+2022-06-05 22:48:52,564 INFO    SenderThread:96031 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json wandb-summary.json
+2022-06-05 22:48:52,565 INFO    SenderThread:96031 [dir_watcher.py:finish():356] scan save: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-metadata.json wandb-metadata.json
+2022-06-05 22:48:52,568 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 7
+2022-06-05 22:48:52,568 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:52,571 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:52,572 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-05 22:48:52,573 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:52,573 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-05 22:48:52,573 INFO    SenderThread:96031 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-05 22:48:52,678 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:52,678 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:52,784 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:52,784 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:52,891 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:52,912 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,019 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,019 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,124 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,124 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,230 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,231 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,333 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,334 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,440 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,441 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,545 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,545 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,653 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,653 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,761 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,762 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,869 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,870 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:53,913 INFO    Thread-23 :96031 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/output.log
+2022-06-05 22:48:53,914 INFO    Thread-24 :96031 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/config.yaml
+2022-06-05 22:48:53,974 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:53,975 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,081 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,082 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,188 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,208 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,240 INFO    Thread-25 :96031 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/wandb-summary.json
+2022-06-05 22:48:54,314 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,315 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,422 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,423 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,527 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,527 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,629 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,630 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,735 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,736 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,840 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,841 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:54,948 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:54,949 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,056 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,056 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,162 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,163 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,267 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,267 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,373 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,374 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,477 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,478 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,585 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,585 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,689 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,689 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,795 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,795 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:55,898 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:55,898 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,003 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,004 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,106 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,106 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,214 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,214 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,321 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,321 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,425 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,425 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,431 INFO    Thread-22 :96031 [upload_job.py:push():132] Uploaded file /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/files/requirements.txt
+2022-06-05 22:48:56,533 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:56,533 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:56,632 INFO    Thread-6  :96031 [sender.py:transition_state():389] send defer: 8
+2022-06-05 22:48:56,634 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:56,634 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-05 22:48:56,634 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:56,634 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-05 22:48:56,640 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:57,377 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 9
+2022-06-05 22:48:57,378 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:57,378 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:57,378 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-05 22:48:57,379 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:57,379 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-05 22:48:57,379 INFO    SenderThread:96031 [sender.py:transition_state():389] send defer: 10
+2022-06-05 22:48:57,379 DEBUG   SenderThread:96031 [sender.py:send():232] send: final
+2022-06-05 22:48:57,380 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: defer
+2022-06-05 22:48:57,380 DEBUG   SenderThread:96031 [sender.py:send():232] send: footer
+2022-06-05 22:48:57,380 INFO    HandlerThread:96031 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-05 22:48:57,380 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: defer
+2022-06-05 22:48:57,380 INFO    SenderThread:96031 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-05 22:48:57,480 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-05 22:48:57,481 DEBUG   SenderThread:96031 [sender.py:send_request():246] send_request: poll_exit
+2022-06-05 22:48:57,481 INFO    SenderThread:96031 [file_pusher.py:join():150] waiting for file pusher
+2022-06-05 22:48:58,256 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-05 22:48:58,258 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-05 22:48:58,259 DEBUG   HandlerThread:96031 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-05 22:48:58,259 INFO    HandlerThread:96031 [handler.py:finish():806] shutting down handler
+2022-06-05 22:48:58,382 INFO    WriterThread:96031 [datastore.py:close():279] close: /Users/malujie/Computer-vision/assignment 3/wandb/run-20220605_224524-wv7wkqhh/run-wv7wkqhh.wandb
+2022-06-05 22:48:59,154 INFO    SenderThread:96031 [sender.py:finish():1110] shutting down sender
+2022-06-05 22:48:59,155 INFO    SenderThread:96031 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-05 22:48:59,155 INFO    SenderThread:96031 [file_pusher.py:join():150] waiting for file pusher
+2022-06-05 22:48:59,159 INFO    MainThread:96031 [internal.py:handle_exit():80] Internal process exited

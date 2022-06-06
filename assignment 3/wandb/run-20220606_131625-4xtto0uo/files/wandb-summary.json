@@ -1,0 +1,1 @@
+{"batch_size": 64, "_timestamp": 1654493864, "_runtime": 1279, "_step": 102, "optimizer": "SGD", "lr": 0.001, "train_loss": 0.24397560954093933, "test_loss": 0.4113050739096988, "acc": 0.8541, "mean_loss": -8.622965879112598e-07, "_wandb": {"runtime": 1273}}

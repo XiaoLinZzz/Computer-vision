@@ -1,0 +1,28 @@
+Shape of X [N, C, H, W]:  torch.Size([64, 1, 28, 28])
+Shape of y:  torch.Size([64]) torch.int64
+Using cpu device
+  401408
+     512
+  262144
+     512
+    5120
+      10
+________
+  669706
+Epoch 1
+-------------------------------
+loss: 2.301514  [    0/60000]
+loss: 0.897188  [ 6400/60000]
+loss: 0.590594  [12800/60000]
+loss: 0.723440  [19200/60000]
+loss: 0.614487  [25600/60000]
+loss: 0.520675  [32000/60000]
+loss: 0.548871  [38400/60000]
+loss: 0.590288  [44800/60000]
+loss: 0.610753  [51200/60000]
+loss: 0.455176  [57600/60000]
+Test Error:
+ Accuracy: 79.0%, Avg loss: 0.546716
+The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
