@@ -11,3 +11,6 @@ This folder is to store what I have done in this course...
 - change the contrast of the image with the factor
 - Convolution of a 2D/RGB image with a 2D kernel
 - Cross correlation of a RGB image with a 2D kernel
+
+
+### a2.py main purpose:
