@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{NAFCHI2012162}
+A set of criteria for face detection preprocessing.
+\newblock {\em Procedia Computer Science}, 13:162--170, 2012.
+
+\bibitem{github}
+ahmdrz.
+\newblock faceutils.
+\newblock \url{https://github.com/mrlathome/faceutils}, 2019.
+
+\bibitem{knn}
+Altman.
+\newblock An introduction to kernel and nearest-neighbor nonparametric
+  regression.
+\newblock {\em The American Statistician}, 1992.
+
+\bibitem{cnn}
+Baoye Song.
+\newblock Human face recognition based on convolutional neural network and
+  augmented dataset.
+\newblock {\em Systems Science & Control Engineering An Open Access Journal},
+  2010.
+
+\bibitem{4}
+Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Mach Learn 20}, pages 273--297, 1995.
+
+\end{thebibliography}
