@@ -20,3 +20,4 @@
 - Using Pytorch 
 - Change the learning rate, optimizer, number of epochs, network structure
 - Calculate the mean of the gradients of the loss to all trainable parameters.
+- Using cvpr 2022 style in the report
