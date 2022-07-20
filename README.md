@@ -1,11 +1,8 @@
-# Computer-vision
-
-The course in The University of Adelaide (COMP SCI 3315)
-
-This folder is to store what I have done in this course...
+# COMP SCI 3315 Computer-vision 
+@The University of Adelaide (2022 s1)
 
 
-### a1.py main puerpose: 
+### Assignment 1: Image filtering
 - crop the image
 - resize the image
 - change the contrast of the image with the factor
@@ -13,4 +10,13 @@ This folder is to store what I have done in this course...
 - Cross correlation of a RGB image with a 2D kernel
 
 
-### a2.py main purpose:
+### Assignment 2: Feature matching and image retrieval
+- Detect features, Match features, Plot and analyze
+- Try the RANSAC option to compute homography
+- Use “top-k” accuracy measure
+
+
+### Assignment 3: Deep Learning for Perception Tasks
+- Using Pytorch 
+- Change the learning rate, optimizer, number of epochs, network structure
+- Calculate the mean of the gradients of the loss to all trainable parameters.
