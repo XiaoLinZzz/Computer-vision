@@ -1,5 +1,4 @@
 # COMP SCI 3315 Computer-vision 
-@The University of Adelaide (2022 s1)
 
 
 ### Assignment 1: Image filtering
